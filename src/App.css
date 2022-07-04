@@ -1,0 +1,101 @@
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(209, 86, 29);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main div {
+  background-color: #fff;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main div h1 {
+  color: #fff;
+  background-color: rgb(209, 86, 29);
+  width: 90%;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+.input-field {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+}
+.input-field input {
+  width: 70%;
+  height: 20px;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 5px;
+  font-size: large;
+}
+.input-field button {
+  width: 30%;
+  height: 30px;
+  border: none;
+  color: #fff;
+  background-color: #5fa617;
+  letter-spacing: 1px;
+  font-size: large;
+}
+.data-field {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.data-field .data {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.data-field .data div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: right;
+  align-items: center;
+}
+.data h2 {
+  width: 60%;
+  height: 30px;
+  text-align: left;
+}
+.data div {
+  width: 40%;
+}
+.edit {
+  width: 50%;
+  border: none;
+  color: #fff;
+  background-color: #a1a1a1;
+  letter-spacing: 1px;
+  font-size: large;
+  text-align: center;
+  margin-right: 5px;
+}
+.delete {
+  width: 50%;
+  border: none;
+  color: #fff;
+  background-color: rgb(209, 86, 29);
+  letter-spacing: 1px;
+  font-size: large;
+  text-align: center;
+}
